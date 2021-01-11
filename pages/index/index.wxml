@@ -1,0 +1,57 @@
+<view class="indexDisplay">
+
+  <view class="avatarContainer">
+    <image class="avatar" src="/static/image/avatar.png"/>
+  </view>
+
+  <view class="textContainer">
+    <text class="title">Hello,Ryan</text>
+    <text>Welcome to Chinese character</text>
+    <view class="indexBlankFill" />
+    <text>Click to Hsk vocabulary</text>
+  </view>
+
+  <view class="carouselContaier">
+    <scroll-view scroll-x="true"> 
+      <view class="carousel" scroll-x="true"> 
+           <view> 
+            <image class="carouselItem" src="/static/image/carousel_01.png" />
+          </view> 
+          <view> 
+            <image class="carouselItem" src="/static/image/carousel_02.png" />
+          </view> 
+      </view> 
+    </scroll-view>
+  </view>
+
+  <!-- <mp-icon type="outline" icon="home" color="black" size="{{25}}"></mp-icon>
+  <mp-icon type="outline" icon="note" color="black" size="{{20}}"></mp-icon>
+  <mp-icon type="outline" icon="search" color="black" size="{{25}}"></mp-icon>
+  <mp-icon type="outline" icon="me" color="black" size="{{25}}"></mp-icon> -->
+
+
+
+  <!-- <view class="footerContainer">
+    <view class="iconContainer">
+      <view class="icon iconfont icon-Homehomepagemenu" />
+      <text>Home</text>
+    </view>
+
+    <view class="iconContainer">
+      <view class="icon iconfont icon-baoguo_o" />
+      <text>Backpack</text>
+    </view>
+
+    <view class="iconContainer">
+      <view class="icon iconfont icon-search" />
+      <text>Search</text>
+    </view>
+
+    <view class="iconContainer">
+      <view class="icon iconfont icon-gerenzhongxin" />
+      <text>Admin</text>
+    </view>
+  </view> -->
+
+
+</view>

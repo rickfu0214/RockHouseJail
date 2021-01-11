@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/backpack/index",
+    "pages/admin/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "心绘汉字"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#f4645f",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home.png"
+      },
+      {
+        "pagePath": "pages/backpack/index",
+        "text": "Note",
+        "iconPath": "static/icon/backpack.png",
+        "selectedIconPath": "static/icon/backpack.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "Search",
+        "iconPath": "static/icon/search.png",
+        "selectedIconPath": "static/icon/search.png"
+      },
+      {
+        "pagePath": "pages/admin/index",
+        "text": "Admin",
+        "iconPath": "static/icon/admin.png",
+        "selectedIconPath": "static/icon/admin.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

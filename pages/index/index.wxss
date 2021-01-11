@@ -1,0 +1,75 @@
+.indexDisplay{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.avatarContainer{
+  width: 100%;
+  padding-top: 30rpx;
+  padding-left: 40rpx;
+}
+
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.textContainer{
+  width: 100%;
+  margin-top: 30rpx;
+  padding-left: 40rpx;
+  font-size: 35rpx;
+  font-family: 'Microsoft Yahei';
+}
+
+.title{
+  display:  block;
+  margin-bottom: 20rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.indexBlankFill{
+  height: 150rpx;
+}
+
+.carouselContaier{
+  width: 100%;
+  margin-top: 10rpx;
+  padding-left: 5rpx;
+}
+
+.carousel{
+  width:100%;
+  display: flex;
+  display: -webkit-box;
+  flex-direction: column;
+} 
+
+.carouselItem{ 
+ width: 600rpx;
+ height: 850rpx;
+} 
+
+/* .footerContainer{
+  width: 100%;
+  margin-top: 10rpx;
+  padding-left: 40rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 25rpx;
+}
+
+.iconContainer{
+  width: 187rpx;
+  height: 50rpx;
+}
+
+.icon{
+  width: 50rpx;
+} */

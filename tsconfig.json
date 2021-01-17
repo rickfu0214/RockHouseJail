@@ -24,7 +24,7 @@
     ]
   },
   "include": [
-    "./**/*.ts"
+    "./**/*.ts", "miniprogram/utils/i18n.js"
   ],
   "exclude": [
     "node_modules"

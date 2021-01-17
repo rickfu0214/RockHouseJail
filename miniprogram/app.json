@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/backpack/index",
+    "pages/search/index",
+    "pages/admin/index",
     "pages/logs/logs"
   ],
   "window": {

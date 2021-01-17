@@ -1,11 +1,12 @@
-// pages/index/index.js
+import { get } from "i18n.js";
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-    
+    greeting: {
+      "homeUserName": get("homeUserName"),
+      "homeGreeting": getApp(),
+      "homeClickTip": getApp()
+    }
   },
 
   /**

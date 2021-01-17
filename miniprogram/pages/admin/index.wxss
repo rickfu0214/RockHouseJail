@@ -1,0 +1,53 @@
+/* pages/admin/index.wxss */
+.top_domain{
+  height: 270rpx;
+  background-color: red;
+  padding-top: 150rpx;
+}
+.top_domain_row{
+}
+.title{
+  display: inline-block;
+  width: 60%;
+  font-size: 40rpx;
+  margin-left: 50rpx;
+  color: white;
+}
+.user_name{
+  font-weight: bold;
+}
+.row_title_entry{
+  width: 90rpx;
+}
+.avatar{
+  display: inline-block;
+}
+image{
+  width: 130rpx;
+  height: 130rpx;
+  background-color: white;
+  border-radius: 100%;
+}
+.bottom_domain{
+  background-color: red;
+  padding-top: 30rpx;
+}
+.domain_content{
+  border-radius: 80rpx 80rpx 0 0;
+  background-color: white;
+}
+.content_row{
+  padding-top: 60rpx;
+}
+.icon{
+  margin-left: 100rpx;
+}
+.text_container{
+  display: inline-block;
+  width: 500rpx;
+}
+.entry{
+  margin-left: 50rpx;
+  font-size: 35rpx;
+  color: gray;
+}

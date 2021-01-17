@@ -1,0 +1,67 @@
+<!--pages/backpack/index.wxml-->
+<view  class="global">
+  <view class="top_domain">
+    <text class="top_domain_entry">My backpack</text>
+  </view>
+  <view class="domain_global">
+    <view class="bottom_domain">
+      <view>
+        <view class="bottom_domain_entry">
+          <text>sky</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+        </view>
+      </view>
+      <view>
+        <view class="bottom_domain_entry">
+          <text>plant</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+        </view>
+      </view>
+      <view>
+        <view class="bottom_domain_entry">
+          <text>ocean</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+          <view class="grid_row">
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell"><image src="/static/image/lock.png"/></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

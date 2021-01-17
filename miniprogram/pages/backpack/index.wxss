@@ -1,0 +1,43 @@
+/* pages/backpack/index.wxss */
+.top_domain{
+  height: 100rpx;
+  background-color: red;
+  padding-top: 250rpx;
+  padding-bottom: 60rpx;
+}
+.top_domain_entry{
+  font-size: 50rpx;
+  font-weight: bold;
+  color: white;
+  margin-left: 30rpx;
+}
+.domain_global{
+  background-color: red;
+}
+.bottom_domain{
+  border-radius: 80rpx 80rpx 0 0;
+  background-color: white;
+  padding-top: 30rpx;
+}
+.bottom_domain_entry{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+  margin-left: 30rpx;
+}
+.grid_row{
+  margin-bottom: 40rpx;
+}
+.cell{
+  display: inline-block;
+  margin-left: 30rpx;
+  width: 150rpx;
+  height: 150rpx;
+  background-color: whitesmoke;
+  text-align: center;
+}
+image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 50rpx;
+}

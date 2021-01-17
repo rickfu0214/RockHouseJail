@@ -1,14 +1,15 @@
 {
-  "name": "miniprogram-ts-quickstart",
+  "name": "Write by Heart Project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convenient for learning Chinese.",
   "scripts": {
     "compile": "./node_modules/typescript/bin/tsc",
     "tsc": "node ./node_modules/typescript/lib/tsc.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "Rick Fu",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
   },
   "devDependencies": {

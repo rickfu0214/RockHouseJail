@@ -1,0 +1,81 @@
+.details-overview {
+  width: 100%;
+  height: 600rpx;
+}
+.main {
+  display: inline-block;
+  margin-left: 80rpx;
+  margin-top: 100rpx;
+  text-align: center;
+  font-size: 45rpx;
+}
+.phoneticize image {
+  width: 130rpx;
+  height: 70rpx;
+}
+.font image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.voice {
+  position: relative;
+  bottom: 275rpx;
+}
+.voice image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.arrow {
+  position: relative;
+  bottom: 160rpx;
+  left: 30rpx;
+}
+.arrow image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.background-image image {
+  width: 350rpx;
+  height: 400rpx;
+}
+
+
+
+.evolutionProcess, .strokeSequence{
+  height: 300rpx;
+  padding-left: 45rpx;
+}
+.key {
+  font-size: 40rpx;
+}
+.children {
+  padding-top: 50rpx;
+}
+.evolution-sky-0, .evolution-sky-n {
+  display: inline-block;
+  width: 100rpx;
+  height: 200rpx;
+  text-align: center;
+}
+.evolution-sky-child-top image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.evolution-arrow {
+  height: auto;
+  position: relative;
+  bottom: 80rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.evolution-arrow image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.sequenceArow {
+  padding-left: 15rpx;
+}
+.sequenceArow image {
+  width: 18rpx;
+  height: 18rpx;
+}

@@ -1,11 +1,18 @@
-// pages/backpack/index.js
+import { get } from '../../common/i18n';
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    title: get('title'),
+    note: {
+      rowName: {
+        sky: get('sky'),
+        plant: get('plant'),
+        ocean: get('ocean')
+      },
+      item: {
+        
+      }
+    }
   },
 
   /**

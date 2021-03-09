@@ -1,12 +1,11 @@
-import { get } from '../../common/i18n';
+// pages/backpack/details/copy/index.js
 Page({
 
+  /**
+   * 页面的初始数据
+   */
   data: {
-    greeting: {
-      homeUserName: get('homeUserName'),
-      homeGreeting: get('homeGreeting'),
-      homeClickTip: get('homeClickTip')
-    }
+
   },
 
   /**

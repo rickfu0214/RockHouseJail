@@ -1,13 +1,36 @@
 <!--pages/backpack/index.wxml-->
 <view  class="global">
   <view class="top_domain">
-    <text class="top_domain_entry">My backpack</text>
+    <text class="top_domain_entry">{{title}}</text>
   </view>
   <view class="domain_global">
     <view class="bottom_domain">
       <view>
         <view class="bottom_domain_entry">
-          <text>sky</text>
+          <text>{{note.rowName.sky}}</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <span class="hasCell">
+              <navigator class="navigator" url="./details/index"><image class="hasCellImage" src="../../static/image/evolution/sky/sky_evolution_05.png"/></navigator>
+            </span>
+            <span class="cell">
+              <image src="/static/image/lock.png"/>
+            </span>
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+          </view>
+          <view class="grid_row">
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell"><image src="/static/image/lock.png"/></span>
+          </view>
+        </view>
+      </view>
+      <view>
+        <view class="bottom_domain_entry">
+          <text>{{note.rowName.plant}}</text>
         </view>
         <view class="bottom_domain_grid">
           <view class="grid_row">
@@ -26,26 +49,7 @@
       </view>
       <view>
         <view class="bottom_domain_entry">
-          <text>plant</text>
-        </view>
-        <view class="bottom_domain_grid">
-          <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-          </view>
-          <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-          </view>
-        </view>
-      </view>
-      <view>
-        <view class="bottom_domain_entry">
-          <text>ocean</text>
+          <text>{{note.rowName.ocean}}</text>
         </view>
         <view class="bottom_domain_grid">
           <view class="grid_row">

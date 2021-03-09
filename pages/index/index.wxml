@@ -5,10 +5,10 @@
   </view>
 
   <view class="textContainer">
-    <text class="title">Hello,Ryan</text>
-    <text>Welcome to Chinese character</text>
+    <text class="title">{{greeting.homeUserName}}</text>
+    <text>{{greeting.homeGreeting}}</text>
     <view class="indexBlankFill" />
-    <text>Click to Hsk vocabulary</text>
+    <text>{{greeting.homeClickTip}}</text>
   </view>
 
   <view class="carouselContaier">

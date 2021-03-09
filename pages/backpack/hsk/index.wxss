@@ -1,0 +1,25 @@
+/* pages/backpack/hsk/index.wxss */
+.hsk-main {
+  text-align: center;
+  margin-top: 100rpx;
+}
+.hsk-phoneticize image {
+  width: 100rpx;
+  height: 50rpx;
+}
+.hsk-font image {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.hsk-vocabulary, .hsk-extend {
+  margin-top: 50rpx;
+  margin-left: 45rpx;
+}
+
+.hsk-key {
+  font-size: 40rpx;
+}
+.hsk-row {
+  margin-top: 20rpx;
+}

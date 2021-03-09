@@ -1,5 +1,5 @@
 /* pages/search/index.wxss */
-.global{
+.search-global{
   margin-left: 30rpx;
 }
 .result_title{
@@ -11,10 +11,10 @@
 .result_row{
   margin-bottom: 40rpx;
 }
-.cell_title{
+.search-cell_title{
   font-size: 40rpx;
 }
-.cell_badge{
+.search-cell_badge{
   color: gray;
   font-size: 30rpx;
 }

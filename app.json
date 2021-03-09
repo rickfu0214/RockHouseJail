@@ -3,12 +3,15 @@
     "pages/index/index",
     "pages/backpack/index",
     "pages/admin/index",
-    "pages/search/index"
+    "pages/search/index",
+    "pages/backpack/details/index",
+    "pages/backpack/hsk/index",
+    "pages/backpack/details/copy/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "心绘汉字"
+    "navigationBarTitleText": "Write by Heart"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {

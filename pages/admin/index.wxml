@@ -1,42 +1,42 @@
 <!--pages/admin/index.wxml-->
 <view>
-  <view class="top_domain">
+  <view class="admin-top_domain">
     <view class="top_domain_row">
       <view class="title">
-          <view class="user_name"><text>Ryan</text></view>
-          <view><text>Lv 3</text></view>   
+          <view class="user_name"><text>{{userPanel.userName}}</text></view>
+          <view><text>{{userPanel.userLevel}}</text></view>   
       </view>
       <view class="avatar">
-        <image src="/static/image/avatar.png"/>
+        <image class="admin-image" src="/static/image/avatar.png"/>
       </view>
     </view>
   </view>
 
-  <view class="bottom_domain">
+  <view class="admin-bottom_domain">
     <view class="domain_content">
       <view class="content_row">
         <mp-icon class="icon" type="outline" icon="bellring-on" color="black" size="{{25}}"></mp-icon>
-        <view class="text_container"><text class="entry">message</text></view>
+        <view class="text_container"><text class="entry">{{settingPanel.message}}</text></view>
         <mp-icon class="arrow" type="outline" icon="arrow" color="black" size="{{10}}"></mp-icon>
       </view>
       <view class="content_row">
         <mp-icon class="icon" type="outline" icon="album" color="black" size="{{25}}"></mp-icon>
-        <view class="text_container"><text class="entry">information</text></view>
+        <view class="text_container"><text class="entry">{{settingPanel.information}}</text></view>
         <mp-icon class="arrow" type="outline" icon="arrow" color="black" size="{{10}}"></mp-icon>
       </view>
       <view class="content_row">
         <mp-icon class="icon" type="outline" icon="email" color="black" size="{{25}}"></mp-icon>
-        <view class="text_container"><text class="entry">feedback</text></view>
+        <view class="text_container"><text class="entry">{{settingPanel.feedback}}</text></view>
         <mp-icon class="arrow" type="outline" icon="arrow" color="black" size="{{10}}"></mp-icon>
       </view>
       <view class="content_row">
         <mp-icon class="icon" type="outline" icon="star" color="black" size="{{25}}"></mp-icon>
-        <view class="text_container"><text class="entry">my note book</text></view>
+        <view class="text_container"><text class="entry">{{settingPanel.myNoteBook}}</text></view>
         <mp-icon class="arrow" type="outline" icon="arrow" color="black" size="{{10}}"></mp-icon>
       </view>
       <view class="content_row">
         <mp-icon class="icon" type="outline" icon="setting" color="black" size="{{25}}"></mp-icon>
-        <view class="text_container"><text class="entry">set</text></view>
+        <view class="text_container"><text class="entry">{{settingPanel.set}}</text></view>
         <mp-icon class="arrow" type="outline" icon="arrow" color="black" size="{{10}}"></mp-icon>
       </view>
     </view>

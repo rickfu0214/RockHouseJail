@@ -1,0 +1,27 @@
+export const data = 
+  {
+    homeUserName: "Hello,Ryan",
+    homeGreeting: "Welcome to Chinese character",
+    homeClickTip: "Click to Hsk vocabulary",
+    title: "My backpack",
+    sky: "sky",
+    plant: "plant",
+    ocean: "ocean",
+    userName: "Ryan",
+    userLevel: "Lv 3",
+    message: "message",
+    information: "information",
+    feedback: "feedback",
+    myNoteBook: "my note book",
+    set: "set",
+    evolutionProcess: "the evolution of chinese character",
+    strokeSequence: "stroke order",
+    evolutionSky01: "甲骨文",
+    evolutionSky02: "金文",
+    evolutionSky03: "小篆",
+    evolutionSky04: "隶书",
+    evolutionSky05: "楷书",
+    hsk: "(HSK1)",
+    vocabulary: "vocabulary",
+    extend: "extended knowledge"
+  }

@@ -1,11 +1,20 @@
+const { get } = require("../../common/i18n");
+
 // pages/admin/index.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    userPanel: {
+      userName: get('userName'),
+      userLevel: get('userLevel')
+    },
+    settingPanel: {
+      message: get('message'),
+      information: get('information'),
+      feedback: get('feedback'),
+      myNoteBook: get('myNoteBook'),
+      set: get('set')
+    }
   },
 
   /**

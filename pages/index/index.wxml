@@ -14,44 +14,17 @@
   <view class="carouselContaier">
     <scroll-view scroll-x="true"> 
       <view class="carousel" scroll-x="true"> 
-           <view> 
+        <navigator class="navigator" hover-class="none" url="../Common/classification/index"><view class="carousel-1"> 
             <image class="carouselItem" src="/static/image/carousel_01.png" />
-          </view> 
-          <view> 
+            <span class="carousel-key">Sky</span>
+            <span class="carousel-learnedWord">1/44</span>
+          </view></navigator>
+          <view class="carousel-2"> 
             <image class="carouselItem" src="/static/image/carousel_02.png" />
+            <span class="carousel-key">Land</span>
+            <span class="carousel-learnedWord">0/44</span>
           </view> 
       </view> 
     </scroll-view>
   </view>
-
-  <!-- <mp-icon type="outline" icon="home" color="black" size="{{25}}"></mp-icon>
-  <mp-icon type="outline" icon="note" color="black" size="{{20}}"></mp-icon>
-  <mp-icon type="outline" icon="search" color="black" size="{{25}}"></mp-icon>
-  <mp-icon type="outline" icon="me" color="black" size="{{25}}"></mp-icon> -->
-
-
-
-  <!-- <view class="footerContainer">
-    <view class="iconContainer">
-      <view class="icon iconfont icon-Homehomepagemenu" />
-      <text>Home</text>
-    </view>
-
-    <view class="iconContainer">
-      <view class="icon iconfont icon-baoguo_o" />
-      <text>Backpack</text>
-    </view>
-
-    <view class="iconContainer">
-      <view class="icon iconfont icon-search" />
-      <text>Search</text>
-    </view>
-
-    <view class="iconContainer">
-      <view class="icon iconfont icon-gerenzhongxin" />
-      <text>Admin</text>
-    </view>
-  </view> -->
-
-
 </view>

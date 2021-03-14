@@ -54,22 +54,32 @@
  width: 600rpx;
  height: 850rpx;
 } 
-
-/* .footerContainer{
-  width: 100%;
-  margin-top: 10rpx;
-  padding-left: 40rpx;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  font-size: 25rpx;
+.carousel-1, .carousel-2 {
+  position: relative;
+  top: 0;
+  left: 0;
 }
-
-.iconContainer{
-  width: 187rpx;
-  height: 50rpx;
+.carousel-key {
+  display: inline-block;
+  width: 280rpx;
+  height: 100rpx;
+  padding-bottom: 20rpx;
+  color: white;
+  font-size: 75rpx;
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 7rpx;
+  position: absolute;
+  left: 80rpx;
+  bottom: 120rpx;
+  z-index: 1;
 }
-
-.icon{
-  width: 50rpx;
-} */
+.carousel-learnedWord {
+  font-size: 36rpx;
+  color: white;
+  position: absolute;
+  bottom: 108rpx;
+  left: 390rpx;
+  z-index: 1;
+}

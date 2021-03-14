@@ -63,8 +63,14 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/backpack/hsk/index",
-          "pathName": "pages/backpack/hsk/index",
+          "name": "classification",
+          "pathName": "pages/Common/classification/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
           "query": "",
           "scene": null
         }

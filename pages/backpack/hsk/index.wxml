@@ -9,7 +9,7 @@
   <view class="hsk-vocabulary">
     <view class="hsk-key">{{key.vocabulary}}</view>
     <view class="hsk-row">
-      <span class="hsk-row-cell">Jīn tiān tiān qì hěn hǎo</span>
+      <span class="hsk-row-cell"></span>
       <span class="hsk-row-cell"></span>
     </view>
     <view class="hsk-row">

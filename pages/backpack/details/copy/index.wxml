@@ -1,2 +1,35 @@
-<!--pages/backpack/details/copy/index.wxml-->
-<text>pages/backpack/details/copy/index.wxml</text>
+<view class="copy-container">
+  <view class="topBar">
+    <span class="copy-topBar-phonenticize">
+      <image src="../../../../static/image/evolution/sky/phoneticize.png" />
+    </span>
+    <span class="copy-topBar-shareButton"></span>
+  </view>
+  <view class="copy-mainFont"><image src="../../../../static/image/evolution/sky/font.png" /></view>
+  <view class="strokeSequence">
+    <image src="../../../../static/image/evolution/sky/strokeSequence.png" />
+  </view>
+
+  <view class="copy-canvas">
+    
+    <canvas id="myCanvas"
+      type="2d"
+      bindtouchstart="start"
+      bindtouchmove="move"
+      bindtouchend="end"/>
+
+    <!-- <view hidden="{{hidden}}">
+      Coordinates: ({{currentX}}, {{currentY}})
+    </view> -->
+
+
+
+  </view>
+  
+
+
+
+
+
+
+</view>

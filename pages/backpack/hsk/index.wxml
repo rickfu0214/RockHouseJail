@@ -8,13 +8,24 @@
 
   <view class="hsk-vocabulary">
     <view class="hsk-key">{{key.vocabulary}}</view>
-    <view class="hsk-row">
-      <span class="hsk-row-cell"></span>
+    <!-- <view class="hsk-row">
+      <span class="hsk-row-cell">
+        <view></view>
+        <view>
+          <span></span>
+          <span></span>
+        </view>
+        <view></view>
+      </span>
       <span class="hsk-row-cell"></span>
     </view>
     <view class="hsk-row">
       <span class="hsk-row-cell"></span>
       <span class="hsk-row-cell"></span>
+    </view> -->
+    <view class="hsk-vocabulary-cell">
+      <image src="../../../static/image/hsk/sky/vocabulary_01.png" />
+      <image src="../../../static/image/hsk/sky/vocabulary_02.png" />
     </view>
   </view>
  
@@ -22,8 +33,12 @@
 
   <view class="hsk-extend">
     <view class="hsk-key">{{key.extend}}</view>
-    <view class="hsk-row"></view>
-    <view class="hsk-row"></view>
+    <!-- <view class="hsk-row"></view>
+    <view class="hsk-row"></view> -->
+    <view class="hsk-extend-cell">
+      <image src="../../../static/image/hsk/sky/extend_01.png" />
+      <image src="../../../static/image/hsk/sky/extend_02.png" />
+    </view>
   </view>
 
 </view>

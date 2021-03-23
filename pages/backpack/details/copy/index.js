@@ -1,66 +1,53 @@
-// pages/backpack/details/copy/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    originalX: 0,
+    originalY: 0,
+    currentX: 0,
+    currentY: 0,
+    hidden: true,
+    ctx: null,
+    query: null
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  start(e) {
+    this.setData({
+      hidden: false,
+      originalX: e.touches[0].x,
+      originalY: e.touches[0].y,
+      currentX: e.touches[0].x,
+      currentY: e.touches[0].y
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  move(e) {
+    this.setData({
+      originalX: this.data.currentX,
+      originalY: this.data.currentY,
+      currentX: e.touches[0].x,
+      currentY: e.touches[0].y
+    });
+    this.draw();
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  end(e) {
+    this.setData({
+      hidden: true
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  draw: function () {
+    this.query.select('#myCanvas')
+      .fields({ node: true, size: true })
+      .exec((res) => {
+        const canvas = res[0].node
+        const ctx = canvas.getContext('2d')
+        const dpr = wx.getSystemInfoSync().pixelRatio
+        canvas.width = res[0].width * dpr
+        canvas.height = res[0].height * dpr
+        ctx.scale(dpr, dpr)
+        ctx.beginPath();
+        ctx.moveTo(this.data.originalX, this.data.originalY);
+        ctx.lineTo(this.data.currentX, this.data.currentY);
+        ctx.stroke();
+      })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  onLoad: function () {
+    this.query = wx.createSelectorQuery()
   }
 })

@@ -6,7 +6,9 @@
       <view class="font"><image src="../../../static/image/evolution/sky/font.png" /></view>
       <view class="dictionary">{{child.hsk}}</view>
     </view>
-    <span class="voice"><image src="../../../static/icon/voice.png" /></span>
+    <audio src="{{innerAudioContextSrc}}" id="audio-sky">
+      <span class="voice" bindtap="audioPlay"><image src="../../../static/icon/voice.png" /></span>
+    </audio>
     <span class="arrow"><image src="../../../static/icon/arrow.png" /></span>
     <span class="background-image"><image src="../../../static/image/sky_bg.png" /></span>
   </view>
@@ -42,33 +44,18 @@
   <view class="strokeSequence">
     <view>
       <span class="key">{{row.strokeSequence}}</span>
-      <span class="sequenceArow"><image src="../../../static/icon/arrow.png" /></span>
+      <navigator class="details-navigator-brush" hover-class="none" url="./copy/index">
+        <span class="sequenceBrush"><image src="../../../static/icon/brush.png" /></span>
+      </navigator>
     </view>
-    <view class="children">
-      <view class="evolution-sky-0">
-        <span class="evolution-sky-child-top"><image src="../../../static/image/evolution/sky/sky_evolution_01.png" /></span>
-        <span class="evolution-sky-child-bottom">{{child.evolutionSky01}}</span>
-      </view>
-      <span class="evolution-arrow"><image src="../../../static/icon/arrow.png" /></span>
-      <view class="evolution-sky-n">
-        <span class="evolution-sky-child-top"><image src="../../../static/image/evolution/sky/sky_evolution_02.png" /></span>
-        <span class="evolution-sky-child-bottom">{{child.evolutionSky02}}</span>
-      </view>
-      <span class="evolution-arrow"><image src="../../../static/icon/arrow.png" /></span>
-      <view class="evolution-sky-n">
-        <span class="evolution-sky-child-top"><image src="../../../static/image/evolution/sky/sky_evolution_03.png" /></span>
-        <span class="evolution-sky-child-bottom">{{child.evolutionSky03}}</span>
-      </view>
-      <span class="evolution-arrow"><image src="../../../static/icon/arrow.png" /></span>
-      <view class="evolution-sky-n">
-        <span class="evolution-sky-child-top"><image src="../../../static/image/evolution/sky/sky_evolution_04.png" /></span>
-        <span class="evolution-sky-child-bottom">{{child.evolutionSky04}}</span>
-      </view>
-      <span class="evolution-arrow"><image src="../../../static/icon/arrow.png" /></span>
-      <view class="evolution-sky-n">
-        <span class="evolution-sky-child-top"><image src="../../../static/image/evolution/sky/sky_evolution_05.png" /></span>
-        <span class="evolution-sky-child-bottom">{{child.evolutionSky05}}</span>
-      </view>
+    <view class="strokeSequenceChildren">
+      <image src="../../../static/image/evolution/sky/strokeSequence.png" />
     </view>
+  </view>
+
+  <view class="global-button-brush">
+    <navigator class="details-navigator-brush" hover-class="none" url="./copy/index">
+      <span class="radiusFramework-brush"><image src="../../../static/icon/whiteBrush.png"/></span>
+    </navigator>
   </view>
 </view>

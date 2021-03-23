@@ -23,21 +23,28 @@ Page({
       evolutionSky03: get('evolutionSky03'),
       evolutionSky04: get('evolutionSky04'),
       evolutionSky05: get('evolutionSky05')
-    }
+    },
+    innerAudioContext: null,
+    innerAudioContextSrc: '../../../static/image/evolution/sky/voice-sky.wav'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this
+      this.innerAudioContext = wx.createAudioContext('audio-sky');
   },
-
+  audioPlay: function () {
+      this.innerAudioContext.play()
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-
+  onReady (e) {
+    // 使用 wx.createAudioContext 获取 audio 上下文 context
+    // this.audioCtx = wx.createAudioContext('myAudio')
+    // this.audioCtx.setSrc('..')
+    // this.audioCtx.play()
   },
 
   /**
@@ -83,7 +90,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+      // this.innerAudioContext.destroy();
   },
 
   /**

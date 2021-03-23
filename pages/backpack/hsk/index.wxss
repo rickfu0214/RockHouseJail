@@ -23,3 +23,12 @@
 .hsk-row {
   margin-top: 20rpx;
 }
+.hsk-vocabulary-cell, .hsk-extend-cell {
+  padding-top: 20rpx;
+  display: block;
+}
+.hsk-vocabulary-cell image, .hsk-extend-cell image {
+  display: block;
+  width: 670rpx;
+  height: 145rpx;
+}

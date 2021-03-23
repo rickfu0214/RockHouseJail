@@ -72,10 +72,40 @@
   width: 20rpx;
   height: 20rpx;
 }
-.sequenceArow {
-  padding-left: 15rpx;
+.strokeSequenceChildren {
+
 }
-.sequenceArow image {
-  width: 18rpx;
-  height: 18rpx;
+.strokeSequenceChildren image {
+  width: 680rpx;
+  height: 260rpx;
+}
+.sequenceBrush {
+  padding-left: 15rpx;
+  position: relative;
+  top: 5rpx;
+}
+.details-navigator-brush {
+  display: inline-block;
+}
+.sequenceBrush image{
+  width: 37rpx;
+  height: 37rpx;
+}
+.radiusFramework-brush {
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #CB0909;
+  border-radius: 100%;
+  position: fixed; 
+  right: 80rpx;
+  bottom: 100rpx;
+  text-align: center;
+
+}
+.global-button-brush .radiusFramework-brush image{
+  width: 70rpx;
+  height: 70rpx;
+  position: relative;
+  top: 20rpx;
+  right: 5rpx;
 }

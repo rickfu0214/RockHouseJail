@@ -73,6 +73,23 @@
           "pathName": "pages/index/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "hsk",
+          "pathName": "pages/backpack/hsk/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "details",
+          "pathName": "pages/backpack/details/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "copy",
+          "pathName": "pages/backpack/details/copy/index",
+          "scene": null
         }
       ]
     }

@@ -23,5 +23,6 @@ export const data =
     evolutionSky05: "楷书",
     hsk: "(HSK1)",
     vocabulary: "vocabulary",
-    extend: "extended knowledge"
+    extend: "extended knowledge",
+    skyVocabularyRow1Cell1_phoneticize: ""
   }

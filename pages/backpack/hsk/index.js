@@ -15,6 +15,13 @@ Page({
     key: {
       vocabulary: get("vocabulary"),
       extend: get("extend")
+    },
+    vocabulary: {
+      row1: {
+        cell1: {
+          phoneticize: get("skyVocabularyRow1Cell1_phoneticize"),
+        }
+      }
     }
   },
 
@@ -136,5 +143,19 @@ Page({
   touchend: function (event) {
     clearInterval(number);
     time = 0;
+  },
+
+  //声明节点查询的方法
+  queryMultipleNodes: function () {
+    const query = wx.createSelectorQuery()                // 创建节点查询器 query
+    query.select('#productServe').boundingClientRect()    // 这段代码的意思是选择Id=productServe的节点，获取节点位置信息的查询请求
+    query.select('#enterpriseServe').boundingClientRect() // 这段代码的意思是选择Id=enterpriseServe的节点，获取节点位置信息的查询请求
+    query.select('#normalServe').boundingClientRect()     // 这段代码的意思是选择Id=normalServe的节点，获取节点位置信息的查询请求
+    query.selectViewport().scrollOffset()                 // 这段代码的意思是获取页面滑动位置的查询请求
+    query.exec((res) => {
+      res[0].top                                          // #productServe节点的到页面顶部的距离
+      res[1].width                                        // #enterpriseServe节点的宽度
+      res[2].height                                       // #normalServe节点的高度
+    })
   },
 })

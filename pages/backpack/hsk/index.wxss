@@ -12,7 +12,7 @@
   height: 250rpx;
 }
 
-.hsk-vocabulary, .hsk-extend {
+#hsk-vocabulary, #hsk-extend {
   margin-top: 50rpx;
   margin-left: 45rpx;
 }
@@ -23,11 +23,11 @@
 .hsk-row {
   margin-top: 20rpx;
 }
-.hsk-vocabulary-cell, .hsk-extend-cell {
+.hsk-vocabulary-container, .hsk-extend-cell {
   padding-top: 20rpx;
   display: block;
 }
-.hsk-vocabulary-cell image, .hsk-extend-cell image {
+.hsk-vocabulary-container image, .hsk-extend-cell image {
   display: block;
   width: 670rpx;
   height: 145rpx;

@@ -73,11 +73,11 @@
   height: 20rpx;
 }
 .strokeSequenceChildren {
-
+  padding-top: 40rpx;
 }
 .strokeSequenceChildren image {
-  width: 680rpx;
-  height: 260rpx;
+  width: 540rpx;
+  height: 75rpx;
 }
 .sequenceBrush {
   padding-left: 15rpx;

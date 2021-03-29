@@ -6,24 +6,27 @@
     <view class="hsk-font"><image src="../../../static/image/evolution/sky/font.png" /></view>
   </view>
 
-  <view class="hsk-vocabulary">
+
+
+
+
+
+  
+  <view id="hsk-vocabulary">
     <view class="hsk-key">{{key.vocabulary}}</view>
-    <!-- <view class="hsk-row">
-      <span class="hsk-row-cell">
-        <view></view>
-        <view>
-          <span></span>
-          <span></span>
+      <view class="hsk-vocabulary-container">
+        <view class="vocabularyRow1">
+        <view class="vocabularyRow1Cell1">
+          <view wx:for=""></view>
+          <view wx:for=""></view>
+          <view wx:for=""></view>
         </view>
-        <view></view>
-      </span>
-      <span class="hsk-row-cell"></span>
-    </view>
-    <view class="hsk-row">
-      <span class="hsk-row-cell"></span>
-      <span class="hsk-row-cell"></span>
-    </view> -->
-    <view class="hsk-vocabulary-cell">
+        <view class="vocabularyRow1Cell2">
+          <view wx:for=""></view>
+          <view wx:for=""></view>
+          <view wx:for=""></view>
+        </view>
+      </view>
       <image src="../../../static/image/hsk/sky/vocabulary_01.png" />
       <image src="../../../static/image/hsk/sky/vocabulary_02.png" />
     </view>
@@ -31,10 +34,8 @@
  
 
 
-  <view class="hsk-extend">
-    <view class="hsk-key">{{key.extend}}</view>
-    <!-- <view class="hsk-row"></view>
-    <view class="hsk-row"></view> -->
+  <view id="hsk-extend">
+    <view class="hsk-key">{{key.extendKnowledge}}</view>
     <view class="hsk-extend-cell">
       <image src="../../../static/image/hsk/sky/extend_01.png" />
       <image src="../../../static/image/hsk/sky/extend_02.png" />

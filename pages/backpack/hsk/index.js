@@ -14,12 +14,57 @@ Page({
   data: {
     key: {
       vocabulary: get("vocabulary"),
-      extend: get("extend")
+      extendKnowledge: get("extend")
     },
     vocabulary: {
+      row1: [
+        {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        },
+        {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        }
+      ],
+      row2: [
+        {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        },
+        {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        }
+      ]
+    },
+    extendKnowledge: {
       row1: {
         cell1: {
-          phoneticize: get("skyVocabularyRow1Cell1_phoneticize"),
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        },
+        cell2: {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        }
+      },
+      row2: {
+        cell1: {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
+        },
+        cell2: {
+          phoneticize: null,
+          chineseCharachter: null,
+          englishCharacter: null,
         }
       }
     }
@@ -29,7 +74,24 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this
+    var that = this;
+    const vocabularyRow1Cell1Top = get("skyVocabularyRow1Cell1_Phoneticize");
+    const vocabularyRow1Cell1Middle = get("skyVocabularyRow1Cell1_ChineseCharacter");
+    const vocabularyRow1Cell1Bottom = get("skyVocabularyRow1Cell1_EnglishCharacter");
+    const vocabularyRow1Cell2Top = get("skyVocabularyRow1Cell2_Phoneticize");
+    const vocabularyRow1Cell2Middle = get("skyVocabularyRow1Cell2_ChineseCharacter");
+    const vocabularyRow1Cell2Bottom = get("skyVocabularyRow1Cell2_EnglishCharacter");
+
+    const vocabularyRow2Cell1Top = get("skyVocabularyrow2Cell1_Phoneticize");
+    const vocabularyRow2Cell1Middle = get("skyVocabularyrow2Cell1_ChineseCharacter");
+    const vocabularyRow2Cell1Bottom = get("skyVocabularyrow2Cell1_EnglishCharacter");
+    const vocabularyRow2Cell2Top = get("skyVocabularyrow2Cell2_Phoneticize");
+    const vocabularyRow2Cell2Middle = get("skyVocabularyrow2Cell2_ChineseCharacter");
+    const vocabularyRow2Cell2Bottom = get("skyVocabularyrow2Cell2_EnglishCharacter");
+    
+    this.setData({
+      vocabulary.row1[0].phoneticize = vocabularyRow1Cell1Top,
+    })
   },
 
   /**

@@ -26,8 +26,8 @@ page{
   padding-bottom: 10rpx;
 }
 .strokeSequence image {
-  width: 640rpx;
-  height: 240rpx;
+  width: 540rpx;
+  height: 75rpx;
 }
 .copy-canvas {
   width: 100%;

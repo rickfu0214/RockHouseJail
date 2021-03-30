@@ -11,24 +11,44 @@
   width: 250rpx;
   height: 250rpx;
 }
-
-#hsk-vocabulary, #hsk-extend {
+.hsk-vocabulary, .hsk-extend {
   margin-top: 50rpx;
-  margin-left: 45rpx;
+  margin-left: 40rpx;
 }
-
 .hsk-key {
   font-size: 40rpx;
 }
 .hsk-row {
   margin-top: 20rpx;
 }
-.hsk-vocabulary-container, .hsk-extend-cell {
+.hsk-vocabulary-container, .hsk-extend-container {
   padding-top: 20rpx;
   display: block;
 }
-.hsk-vocabulary-container image, .hsk-extend-cell image {
+.vocabularyRow1, .extendRow1 {
+  margin-bottom: 30rpx;
+}
+.vocabularyRow1Cell1, .vocabularyRow1Cell2, .vocabularyRow2Cell1, .vocabularyRow2Cell2 {
+  display: inline-block;
+}
+.vocabularyRow1Cell1 view, .vocabularyRow1Cell2 view, .vocabularyRow2Cell1 view, .vocabularyRow2Cell2 view {
   display: block;
-  width: 670rpx;
-  height: 145rpx;
+}
+.vocabularyRow1Cell1, .vocabularyRow2Cell1 {
+  width: 146rpx;
+}
+.vocabularyRow1Cell2, .vocabularyRow2Cell2 {
+  margin-left: 50rpx;
+}
+.hsk-common-phoneticize {
+  margin-right: 7rpx;
+  font-size: 28rpx;
+}
+.hsk-common-chinese {
+  padding-left: 5rpx;
+  margin-right: 16rpx;
+}
+.hsk-common-english {
+  padding-left: 2rpx;
+  margin-right: 10rpx;
 }

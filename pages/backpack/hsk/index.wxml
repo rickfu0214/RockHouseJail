@@ -1,44 +1,52 @@
 <!--pages/backpack/hsk/index.wxml-->
 <view class="hsk-container"  bindtouchstart="touchStart" bindtouchend="touchEnd">
-  
   <view class="hsk-main">
     <view class="hsk-phoneticize"><image src="../../../static/image/evolution/sky/phoneticize.png" /></view>
     <view class="hsk-font"><image src="../../../static/image/evolution/sky/font.png" /></view>
   </view>
-
-
-
-
-
-
-  
-  <view id="hsk-vocabulary">
+  <view class="hsk-vocabulary">
     <view class="hsk-key">{{key.vocabulary}}</view>
-      <view class="hsk-vocabulary-container">
-        <view class="vocabularyRow1">
+    <view class="hsk-vocabulary-container">
+      <view class="vocabularyRow1">
         <view class="vocabularyRow1Cell1">
-          <view wx:for=""></view>
-          <view wx:for=""></view>
-          <view wx:for=""></view>
+          <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow1Cell1Top}}">{{item}}</span></view>
+          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow1Cell1Middle}}">{{item}}</span></view>
+          <view><span class="hsk-common-english" wx:for="{{vocabularyRow1Cell1Bottom}}">{{item}}</span></view>
         </view>
         <view class="vocabularyRow1Cell2">
-          <view wx:for=""></view>
-          <view wx:for=""></view>
-          <view wx:for=""></view>
+          <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow1Cell2Top}}">{{item}}</span></view>
+          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow1Cell2Middle}}">{{item}}</span></view>
+          <view><span class="hsk-common-english" wx:for="{{vocabularyRow1Cell2Bottom}}">{{item}}</span></view>
         </view>
       </view>
-      <image src="../../../static/image/hsk/sky/vocabulary_01.png" />
-      <image src="../../../static/image/hsk/sky/vocabulary_02.png" />
+      <view class="vocabularyRow2">
+        <view class="vocabularyRow2Cell1">
+          <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow2Cell1Top}}">{{item}}</span></view>
+          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow2Cell1Middle}}">{{item}}</span></view>
+          <view><span class="hsk-common-english" wx:for="{{vocabularyRow2Cell1Bottom}}">{{item}}</span></view>
+        </view>
+        <view class="vocabularyRow2Cell2">
+          <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow2Cell2Top}}">{{item}}</span></view>
+          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow2Cell2Middle}}">{{item}}</span></view>
+          <view><span class="hsk-common-english" wx:for="{{vocabularyRow2Cell2Bottom}}">{{item}}</span></view>
+        </view>
+      </view>
     </view>
   </view>
- 
 
-
-  <view id="hsk-extend">
+  <view class="hsk-extend">
     <view class="hsk-key">{{key.extendKnowledge}}</view>
-    <view class="hsk-extend-cell">
-      <image src="../../../static/image/hsk/sky/extend_01.png" />
-      <image src="../../../static/image/hsk/sky/extend_02.png" />
+    <view class="hsk-extend-container">
+      <view class="extendRow1">
+        <view><span class="hsk-common-phoneticize" wx:for="{{extendRow1Top}}">{{item}}</span></view>
+        <view><span class="hsk-common-chinese" wx:for="{{extendRow1Middle}}">{{item}}</span></view>
+        <view><span class="hsk-common-english" wx:for="{{extendRow1Bottom}}">{{item}}</span></view>
+      </view>
+      <view class="extendRow2">
+        <view><span class="hsk-common-phoneticize" wx:for="{{extendRow2Top}}">{{item}}</span></view>
+        <view><span class="hsk-common-chinese" wx:for="{{extendRow2Middle}}">{{item}}</span></view>
+        <view><span class="hsk-common-english" wx:for="{{extendRow2Bottom}}">{{item}}</span></view>
+      </view>
     </view>
   </view>
 

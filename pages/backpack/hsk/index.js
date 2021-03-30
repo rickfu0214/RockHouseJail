@@ -16,59 +16,28 @@ Page({
       vocabulary: get("vocabulary"),
       extendKnowledge: get("extend")
     },
-    vocabulary: {
-      row1: [
-        {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        },
-        {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        }
-      ],
-      row2: [
-        {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        },
-        {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        }
-      ]
-    },
-    extendKnowledge: {
-      row1: {
-        cell1: {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        },
-        cell2: {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        }
-      },
-      row2: {
-        cell1: {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        },
-        cell2: {
-          phoneticize: null,
-          chineseCharachter: null,
-          englishCharacter: null,
-        }
-      }
-    }
+    vocabularyRow1Cell1Top: null,
+    vocabularyRow1Cell1Middle: null,
+    vocabularyRow1Cell1Bottom: null,
+    vocabularyRow1Cell2Top: null,
+    vocabularyRow1Cell2Middle: null,
+    vocabularyRow1Cell2Bottom: null,
+
+    vocabularyRow2Cell1Top: null,
+    vocabularyRow2Cell1Middle: null,
+    vocabularyRow2Cell1Bottom: null,
+    vocabularyRow2Cell2Top: null,
+    vocabularyRow2Cell2Middle: null,
+    vocabularyRow2Cell2Bottom: null,
+
+    extendRow1Top: null,
+    extendRow1Middle: null,
+    extendRow1Bottom: null,
+    extendRow2Top: null,
+    extendRow2Middle: null,
+    extendRow2Bottom: null,
   },
+  
 
   /**
    * 生命周期函数--监听页面加载
@@ -76,29 +45,55 @@ Page({
   onLoad: function (options) {
     var that = this;
     const vocabularyRow1Cell1Top = get("skyVocabularyRow1Cell1_Phoneticize");
-    const vocabularyRow1Cell1Middle = get("skyVocabularyRow1Cell1_ChineseCharacter");
-    const vocabularyRow1Cell1Bottom = get("skyVocabularyRow1Cell1_EnglishCharacter");
+    const vocabularyRow1Cell1Middle = get("skyVocabularyRow1Cell1_Chinese");
+    const vocabularyRow1Cell1Bottom = get("skyVocabularyRow1Cell1_English");
     const vocabularyRow1Cell2Top = get("skyVocabularyRow1Cell2_Phoneticize");
-    const vocabularyRow1Cell2Middle = get("skyVocabularyRow1Cell2_ChineseCharacter");
-    const vocabularyRow1Cell2Bottom = get("skyVocabularyRow1Cell2_EnglishCharacter");
+    const vocabularyRow1Cell2Middle = get("skyVocabularyRow1Cell2_Chinese");
+    const vocabularyRow1Cell2Bottom = get("skyVocabularyRow1Cell2_English");
 
-    const vocabularyRow2Cell1Top = get("skyVocabularyrow2Cell1_Phoneticize");
-    const vocabularyRow2Cell1Middle = get("skyVocabularyrow2Cell1_ChineseCharacter");
-    const vocabularyRow2Cell1Bottom = get("skyVocabularyrow2Cell1_EnglishCharacter");
-    const vocabularyRow2Cell2Top = get("skyVocabularyrow2Cell2_Phoneticize");
-    const vocabularyRow2Cell2Middle = get("skyVocabularyrow2Cell2_ChineseCharacter");
-    const vocabularyRow2Cell2Bottom = get("skyVocabularyrow2Cell2_EnglishCharacter");
+    const vocabularyRow2Cell1Top = get("skyVocabularyRow2Cell1_Phoneticize");
+    const vocabularyRow2Cell1Middle = get("skyVocabularyRow2Cell1_Chinese");
+    const vocabularyRow2Cell1Bottom = get("skyVocabularyRow2Cell1_English");
+    const vocabularyRow2Cell2Top = get("skyVocabularyRow2Cell2_Phoneticize");
+    const vocabularyRow2Cell2Middle = get("skyVocabularyRow2Cell2_Chinese");
+    const vocabularyRow2Cell2Bottom = get("skyVocabularyRow2Cell2_English");
     
+    const extendRow1Top = get("skyExtendRow1_Phoneticize");
+    const extendRow1Middle = get("skyExtendRow1_Chinese");
+    const extendRow1Bottom = get("skyExtendRow1_English");
+    const extendRow2Top = get("skyExtendRow2_Phoneticize");
+    const extendRow2Middle = get("skyExtendRow2_Chinese");
+    const extendRow2Bottom = get("skyExtendRow2_English");
+
     this.setData({
-      vocabulary.row1[0].phoneticize = vocabularyRow1Cell1Top,
-    })
+      vocabularyRow1Cell1Top: vocabularyRow1Cell1Top.split(' '),
+      vocabularyRow1Cell1Middle: vocabularyRow1Cell1Middle.split(' '),
+      vocabularyRow1Cell1Bottom: vocabularyRow1Cell1Bottom.split(' '),
+      vocabularyRow1Cell2Top: vocabularyRow1Cell2Top.split(' '),
+      vocabularyRow1Cell2Middle: vocabularyRow1Cell2Middle.split(' '),
+      vocabularyRow1Cell2Bottom: vocabularyRow1Cell2Bottom.split(' '),
+
+      vocabularyRow2Cell1Top: vocabularyRow2Cell1Top.split(' '),
+      vocabularyRow2Cell1Middle: vocabularyRow2Cell1Middle.split(' '),
+      vocabularyRow2Cell1Bottom: vocabularyRow2Cell1Bottom.split(' '),
+      vocabularyRow2Cell2Top: vocabularyRow2Cell2Top.split(' '),
+      vocabularyRow2Cell2Middle: vocabularyRow2Cell2Middle.split(' '),
+      vocabularyRow2Cell2Bottom: vocabularyRow2Cell2Bottom.split(' '),
+
+      extendRow1Top: extendRow1Top.split(' '),
+      extendRow1Middle: extendRow1Middle.split(' '),
+      extendRow1Bottom: extendRow1Bottom.split(' '),
+      extendRow2Top: extendRow2Top.split(' '),
+      extendRow2Middle: extendRow2Middle.split(' '),
+      extendRow2Bottom: extendRow2Bottom.split(' '),
+    });
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**

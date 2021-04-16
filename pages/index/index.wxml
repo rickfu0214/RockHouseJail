@@ -17,7 +17,7 @@
         <navigator class="navigator" hover-class="none" url="../Common/classification/index"><view class="carousel-1"> 
             <image class="carouselItem" src="/static/image/carousel_01.png" />
             <span class="carousel-key">Sky</span>
-            <span class="carousel-learnedWord">1/44</span>
+            <span class="carousel-learnedWord">1/10</span>
           </view></navigator>
           <view class="carousel-2"> 
             <image class="carouselItem" src="/static/image/carousel_02.png" />

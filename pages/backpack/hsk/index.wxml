@@ -10,7 +10,10 @@
       <view class="vocabularyRow1">
         <view class="vocabularyRow1Cell1">
           <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow1Cell1Top}}">{{item}}</span></view>
-          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow1Cell1Middle}}">{{item}}</span></view>
+          <view>
+            <span class="hsk-common-chinese" wx:for="{{vocabularyRow1Cell1Middle}}">{{item}}</span>
+            <span class="hsk-level">(HSK1)</span>  
+          </view>
           <view><span class="hsk-common-english" wx:for="{{vocabularyRow1Cell1Bottom}}">{{item}}</span></view>
         </view>
         <view class="vocabularyRow1Cell2">
@@ -22,7 +25,10 @@
       <view class="vocabularyRow2">
         <view class="vocabularyRow2Cell1">
           <view><span class="hsk-common-phoneticize" wx:for="{{vocabularyRow2Cell1Top}}">{{item}}</span></view>
-          <view><span class="hsk-common-chinese" wx:for="{{vocabularyRow2Cell1Middle}}">{{item}}</span></view>
+          <view>
+            <span class="hsk-common-chinese" wx:for="{{vocabularyRow2Cell1Middle}}">{{item}}</span>
+            <span class="hsk-level">(HSK5)</span>
+          </view>
           <view><span class="hsk-common-english" wx:for="{{vocabularyRow2Cell1Bottom}}">{{item}}</span></view>
         </view>
         <view class="vocabularyRow2Cell2">
@@ -39,12 +45,18 @@
     <view class="hsk-extend-container">
       <view class="extendRow1">
         <view><span class="hsk-common-phoneticize" wx:for="{{extendRow1Top}}">{{item}}</span></view>
-        <view><span class="hsk-common-chinese" wx:for="{{extendRow1Middle}}">{{item}}</span></view>
+        <view>
+          <span class="hsk-common-chinese" wx:for="{{extendRow1Middle}}">{{item}}</span>
+          <span class="hsk-level">(HSK1)</span>
+        </view>
         <view><span class="hsk-common-english" wx:for="{{extendRow1Bottom}}">{{item}}</span></view>
       </view>
       <view class="extendRow2">
         <view><span class="hsk-common-phoneticize" wx:for="{{extendRow2Top}}">{{item}}</span></view>
-        <view><span class="hsk-common-chinese" wx:for="{{extendRow2Middle}}">{{item}}</span></view>
+        <view>
+          <span class="hsk-common-chinese" wx:for="{{extendRow2Middle}}">{{item}}</span>
+          <span class="hsk-level">(HSK6)</span>
+        </view>
         <view><span class="hsk-common-english" wx:for="{{extendRow2Bottom}}">{{item}}</span></view>
       </view>
     </view>

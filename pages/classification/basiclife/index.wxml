@@ -1,0 +1,60 @@
+<!--pages/Common/classification/index.wxml-->
+<view class="classification-container">
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
+      <image src="../../../static/image/evolution/basiclife/1.png" />
+      <!-- </navigator> -->
+    </span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/2.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/3.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/4.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/5.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/6.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/7.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/8.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/9.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/10.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/11.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/12.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/13.png" /></span>
+    <span class="classification-cell-2">
+      <image src="../../../static/image/evolution/basiclife/14.png" /></span>
+  </view>
+
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <image src="../../../static/image/evolution/basiclife/15.png" /></span>
+  </view>
+
+</view>

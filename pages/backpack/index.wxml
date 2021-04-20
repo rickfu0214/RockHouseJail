@@ -1,5 +1,5 @@
 <!--pages/backpack/index.wxml-->
-<view  class="global">
+<view class="global">
   <view class="top_domain">
     <text class="top_domain_entry">{{title}}</text>
   </view>
@@ -12,60 +12,592 @@
         <view class="bottom_domain_grid">
           <view class="grid_row">
             <span class="hasCell">
-              <navigator class="navigator" hover-class="none" url="./details/index"><image class="hasCellImage" src="../../static/image/evolution/sky/sky_evolution_05.png"/></navigator>
+              <navigator class="navigator" hover-class="none" url="./details/index">
+                <image class="hasCellImage" src="../../static/image/evolution/sky/sky_evolution_05.png" />
+              </navigator>
             </span>
             <span class="cell">
-              <image src="/static/image/lock.png"/>
+              <image src="/static/image/lock.png" />
             </span>
-            <span class="cell"><image src="/static/image/lock.png"/></span>
-            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
           </view>
           <view class="grid_row">
-            <span class="cell"><image src="/static/image/lock.png"/></span>
-            <span class="cell"><image src="/static/image/lock.png"/></span>
-            <span class="cell"><image src="/static/image/lock.png"/></span>
-            <span class="cell"><image src="/static/image/lock.png"/></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
           </view>
         </view>
       </view>
       <view>
         <view class="bottom_domain_entry">
-          <text>{{note.rowName.plant}}</text>
+          <text>land</text>
         </view>
         <view class="bottom_domain_grid">
           <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
           </view>
           <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
           </view>
         </view>
       </view>
+
       <view>
         <view class="bottom_domain_entry">
-          <text>{{note.rowName.ocean}}</text>
+          <text>time</text>
         </view>
         <view class="bottom_domain_grid">
           <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
           </view>
           <view class="grid_row">
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
-            <view class="cell"><image src="/static/image/lock.png"/></view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
           </view>
         </view>
       </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>direction</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>plant</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>animal</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>person</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>body</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>folklore</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>action</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>action</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>goods</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
+      <view>
+        <view class="bottom_domain_entry">
+          <text>basic necessities of life</text>
+        </view>
+        <view class="bottom_domain_grid">
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+            <view class="cell">
+              <image src="/static/image/lock.png" />
+            </view>
+          </view>
+          <view class="grid_row">
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+            <span class="cell">
+              <image src="/static/image/lock.png" /></span>
+          </view>
+        </view>
+      </view>
+
     </view>
   </view>
 </view>

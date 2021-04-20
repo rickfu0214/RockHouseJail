@@ -1,0 +1,35 @@
+<!--pages/Common/classification/index.wxml-->
+<view class="classification-container">
+<view class="classification-row-1">
+  <span class="classification-cell-1">
+    <navigator class="navigation" hover-class="none" url="../../backpack/details/index">
+      <image src="../../../static/image/evolution/sky/1.png" />
+    </navigator>
+  </span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/2.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/3.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/4.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/5.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/6.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/7.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/8.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/9.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/10.png" /></span>
+</view>
+
+
+
+
+</view>

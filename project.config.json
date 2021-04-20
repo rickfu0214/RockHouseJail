@@ -63,8 +63,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "classification",
-          "pathName": "pages/Common/classification/index",
+          "name": "sky",
+          "pathName": "pages/classification/sky/index",
           "query": "",
           "scene": null
         },

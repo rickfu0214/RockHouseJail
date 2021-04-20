@@ -48,16 +48,21 @@
   display: flex;
   display: -webkit-box;
   flex-direction: column;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
 } 
 
 .carouselItem{ 
- width: 600rpx;
+ width: 550rpx;
  height: 850rpx;
+ border-radius: 80rpx;
 } 
-.carousel-1, .carousel-2 {
+.carousel-1, .carousel-2, .carousel-3, .carousel-4, .carousel-5, .carousel-6, .carousel-7, .carousel-8, .carousel-9, .carousel-10, .carousel-11, .carousel-12 {
   position: relative;
   top: 0;
   left: 0;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
 }
 .carousel-key {
   display: inline-block;
@@ -71,7 +76,7 @@
   border-bottom-color: white;
   border-bottom-width: 7rpx;
   position: absolute;
-  left: 80rpx;
+  left: 50rpx;
   bottom: 120rpx;
   z-index: 1;
 }
@@ -80,6 +85,6 @@
   color: white;
   position: absolute;
   bottom: 108rpx;
-  left: 390rpx;
+  left: 360rpx;
   z-index: 1;
 }

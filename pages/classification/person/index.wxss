@@ -1,0 +1,18 @@
+/* pages/Common/classification/index.wxss */
+.classification-row-1 {
+  height: 150rpx;
+  margin-top: 80rpx;
+}
+.classification-cell-1, .classification-cell-2 {
+  display: inline-block;
+}
+.classification-cell-1 {
+  margin-left: 80rpx;
+}
+.classification-cell-2 {
+  margin-left: 100rpx;
+}
+.classification-container image{
+  width: 240rpx;
+  height: 200rpx;
+}

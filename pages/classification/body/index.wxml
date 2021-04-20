@@ -1,0 +1,35 @@
+<!--pages/Common/classification/index.wxml-->
+<view class="classification-container">
+<view class="classification-row-1">
+  <span class="classification-cell-1">
+    <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
+      <image src="../../../static/image/evolution/body/1.png" />
+    <!-- </navigator> -->
+  </span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/2.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/3.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/4.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/5.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/6.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/7.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/8.png" /></span>
+</view>
+
+<view class="classification-row-1">
+  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/9.png" /></span>
+  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/10.png" /></span>
+</view>
+
+
+
+
+</view>

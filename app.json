@@ -7,7 +7,7 @@
     "pages/backpack/details/index",
     "pages/backpack/hsk/index",
     "pages/backpack/details/copy/index",
-    "pages/Common/classification/index"
+    "pages/classification/sky/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

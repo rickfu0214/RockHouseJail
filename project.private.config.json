@@ -1,0 +1,54 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "hsk",
+          "pathName": "pages/backpack/hsk/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "details",
+          "pathName": "pages/backpack/details/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "copy",
+          "pathName": "pages/backpack/details/copy/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classification/sky/index",
+          "pathName": "pages/classification/sky/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "backpack",
+          "pathName": "pages/backpack/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

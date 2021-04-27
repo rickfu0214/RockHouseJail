@@ -3,30 +3,30 @@
 <view class="classification-row-1">
   <span class="classification-cell-1">
     <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/animal/1.png" />
+      <image src="{{animal_01}}" />
     <!-- </navigator> -->
   </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/animal/2.png" /></span>
+  <span class="classification-cell-2"><image src="{{animal_02}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/animal/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/animal/4.png" /></span>
+  <span class="classification-cell-1"><image src="{{animal_03}}" /></span>
+  <span class="classification-cell-2"><image src="{{animal_04}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/animal/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/animal/6.png" /></span>
+  <span class="classification-cell-1"><image src="{{animal_05}}" /></span>
+  <span class="classification-cell-2"><image src="{{animal_06}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/animal/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/animal/8.png" /></span>
+  <span class="classification-cell-1"><image src="{{animal_07}}" /></span>
+  <span class="classification-cell-2"><image src="{{animal_08}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/animal/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/animal/10.png" /></span>
+  <span class="classification-cell-1"><image src="{{animal_09}}" /></span>
+  <span class="classification-cell-2"><image src="{{animal_10}}" /></span>
 </view>
 
 

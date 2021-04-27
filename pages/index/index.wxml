@@ -1,7 +1,7 @@
 <view class="indexDisplay">
 
   <view class="avatarContainer">
-    <image class="avatar" src="/static/image/avatar.png" />
+    <image class="avatar" src="{{avatar}}" />
   </view>
 
   <view class="textContainer">
@@ -16,14 +16,14 @@
       <view class="carousel" scroll-x="true">
         <navigator class="navigator" hover-class="none" url="../classification/sky/index">
           <view class="carousel-1">
-            <image class="carouselItem" src="/static/image/carousel_01.png" />
+            <image class="carouselItem" src="{{carousel_01}}" />
             <span class="carousel-key">Sky</span>
             <span class="carousel-learnedWord">1/10</span>
           </view>
         </navigator>
         <navigator class="navigator" hover-class="none" url="../classification/land/index">
           <view class="carousel-2">
-            <image class="carouselItem" src="/static/image/carousel_02.png" />
+            <image class="carouselItem" src="{{carousel_02}}" />
             <span class="carousel-key">Land</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -31,7 +31,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/time/index">
           <view class="carousel-3">
-            <image class="carouselItem" src="/static/image/carousel_03.png" />
+            <image class="carouselItem" src="{{carousel_03}}" />
             <span class="carousel-key">Time</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -39,7 +39,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/direction/index">
           <view class="carousel-4">
-            <image class="carouselItem" src="/static/image/carousel_04.png" />
+            <image class="carouselItem" src="{{carousel_04}}" />
             <span class="carousel-key">Direction</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -47,7 +47,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/plant/index">
           <view class="carousel-5">
-            <image class="carouselItem" src="/static/image/carousel_05.png" />
+            <image class="carouselItem" src="{{carousel_05}}" />
             <span class="carousel-key">Plant</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -55,7 +55,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/animal/index">
           <view class="carousel-6">
-            <image class="carouselItem" src="/static/image/carousel_06.png" />
+            <image class="carouselItem" src="{{carousel_06}}" />
             <span class="carousel-key">Animal</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -63,7 +63,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/person/index">
           <view class="carousel-7">
-            <image class="carouselItem" src="/static/image/carousel_07.png" />
+            <image class="carouselItem" src="{{carousel_07}}" />
             <span class="carousel-key">Person</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -71,7 +71,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/body/index">
           <view class="carousel-8">
-            <image class="carouselItem" src="/static/image/carousel_08.png" />
+            <image class="carouselItem" src="{{carousel_08}}" />
             <span class="carousel-key">Body</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -79,7 +79,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/folklore/index">
           <view class="carousel-9">
-            <image class="carouselItem" src="/static/image/carousel_09.png" />
+            <image class="carouselItem" src="{{carousel_09}}" />
             <span class="carousel-key">Folklore</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -87,7 +87,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/action/index">
           <view class="carousel-10">
-            <image class="carouselItem" src="/static/image/carousel_10.png" />
+            <image class="carouselItem" src="{{carousel_10}}" />
             <span class="carousel-key">Action</span>
             <span class="carousel-learnedWord">0/20</span>
           </view>
@@ -95,7 +95,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/goods/index">
           <view class="carousel-11">
-            <image class="carouselItem" src="/static/image/carousel_11.png" />
+            <image class="carouselItem" src="{{carousel_11}}" />
             <span class="carousel-key">Goods</span>
             <span class="carousel-learnedWord">0/10</span>
           </view>
@@ -103,7 +103,7 @@
 
         <navigator class="navigator" hover-class="none" url="../classification/basiclife/index">
           <view class="carousel-12">
-            <image class="carouselItem" src="/static/image/carousel_12.png" />
+            <image class="carouselItem" src="{{carousel_12}}" />
             <span class="carousel-key">Basic</span>
             <span class="carousel-learnedWord">0/15</span>
           </view>

@@ -3,30 +3,30 @@
 <view class="classification-row-1">
   <span class="classification-cell-1">
     <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/body/1.png" />
+      <image src="{{body_01}}" />
     <!-- </navigator> -->
   </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/2.png" /></span>
+  <span class="classification-cell-2"><image src="{{body_02}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/4.png" /></span>
+  <span class="classification-cell-1"><image src="{{body_03}}" /></span>
+  <span class="classification-cell-2"><image src="{{body_04}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/6.png" /></span>
+  <span class="classification-cell-1"><image src="{{body_05}}" /></span>
+  <span class="classification-cell-2"><image src="{{body_06}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/8.png" /></span>
+  <span class="classification-cell-1"><image src="{{body_07}}" /></span>
+  <span class="classification-cell-2"><image src="{{body_08}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/body/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/body/10.png" /></span>
+  <span class="classification-cell-1"><image src="{{body_09}}" /></span>
+  <span class="classification-cell-2"><image src="{{body_10}}" /></span>
 </view>
 
 

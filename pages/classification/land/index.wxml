@@ -3,30 +3,30 @@
 <view class="classification-row-1">
   <span class="classification-cell-1">
     <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/land/1.png" />
+      <image src="{{land_01}}" />
     <!-- </navigator> -->
   </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/land/2.png" /></span>
+  <span class="classification-cell-2"><image src="{{land_02}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/land/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/land/4.png" /></span>
+  <span class="classification-cell-1"><image src="{{land_03}}" /></span>
+  <span class="classification-cell-2"><image src="{{land_04}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/land/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/land/6.png" /></span>
+  <span class="classification-cell-1"><image src="{{land_05}}" /></span>
+  <span class="classification-cell-2"><image src="{{land_06}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/land/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/land/8.png" /></span>
+  <span class="classification-cell-1"><image src="{{land_07}}" /></span>
+  <span class="classification-cell-2"><image src="{{land_08}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/land/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/land/10.png" /></span>
+  <span class="classification-cell-1"><image src="{{land_09}}" /></span>
+  <span class="classification-cell-2"><image src="{{land_10}}" /></span>
 </view>
 
 

@@ -3,30 +3,30 @@
 <view class="classification-row-1">
   <span class="classification-cell-1">
     <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/goods/1.png" />
+      <image src="{{goods_01}}" />
     <!-- </navigator> -->
   </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/goods/2.png" /></span>
+  <span class="classification-cell-2"><image src="{{goods_02}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/goods/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/goods/4.png" /></span>
+  <span class="classification-cell-1"><image src="{{goods_03}}" /></span>
+  <span class="classification-cell-2"><image src="{{goods_04}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/goods/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/goods/6.png" /></span>
+  <span class="classification-cell-1"><image src="{{goods_05}}" /></span>
+  <span class="classification-cell-2"><image src="{{goods_06}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/goods/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/goods/8.png" /></span>
+  <span class="classification-cell-1"><image src="{{goods_07}}" /></span>
+  <span class="classification-cell-2"><image src="{{goods_08}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/goods/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/goods/10.png" /></span>
+  <span class="classification-cell-1"><image src="{{goods_09}}" /></span>
+  <span class="classification-cell-2"><image src="{{goods_10}}" /></span>
 </view>
 
 

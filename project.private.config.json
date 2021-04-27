@@ -20,24 +20,24 @@
         },
         {
           "name": "hsk",
-          "pathName": "pages/backpack/hsk/index",
+          "pathName": "pages/backpack/hsk/sky/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "details",
-          "pathName": "pages/backpack/details/index",
+          "name": "sky_1 details",
+          "pathName": "pages/backpack/sky/sky_1/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "copy",
-          "pathName": "pages/backpack/details/copy/index",
+          "name": "sky-copy",
+          "pathName": "pages/backpack/sky/copy/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/classification/sky/index",
+          "name": "classification-action",
           "pathName": "pages/classification/sky/index",
           "query": "",
           "scene": null
@@ -45,6 +45,18 @@
         {
           "name": "backpack",
           "pathName": "pages/backpack/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "classification-animal",
+          "pathName": "pages/classification/animal/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "classification-sky",
+          "pathName": "pages/classification/sky/index",
           "query": "",
           "scene": null
         }

@@ -4,10 +4,58 @@
     "pages/backpack/index",
     "pages/admin/index",
     "pages/search/index",
-    "pages/backpack/details/index",
-    "pages/backpack/hsk/index",
-    "pages/backpack/details/copy/index",
-    "pages/classification/sky/index"
+    "pages/backpack/sky/sky_1/index",
+    "pages/backpack/hsk/sky/sky_1/index",
+    "pages/backpack/sky/sky_1/copy/index",
+
+    "pages/backpack/sky/sky_2/index",
+    "pages/backpack/hsk/sky/sky_2/index",
+    "pages/backpack/sky/sky_2/copy/index",
+
+    "pages/backpack/sky/sky_3/index",
+    "pages/backpack/hsk/sky/sky_3/index",
+    "pages/backpack/sky/sky_3/copy/index",
+
+    "pages/backpack/sky/sky_4/index",
+    "pages/backpack/hsk/sky/sky_4/index",
+    "pages/backpack/sky/sky_4/copy/index",
+
+    "pages/backpack/sky/sky_5/index",
+    "pages/backpack/hsk/sky/sky_5/index",
+    "pages/backpack/sky/sky_5/copy/index",
+
+    "pages/backpack/sky/sky_6/index",
+    "pages/backpack/hsk/sky/sky_6/index",
+    "pages/backpack/sky/sky_6/copy/index",
+
+    "pages/backpack/sky/sky_7/index",
+    "pages/backpack/hsk/sky/sky_7/index",
+    "pages/backpack/sky/sky_7/copy/index",
+
+    "pages/backpack/sky/sky_8/index",
+    "pages/backpack/hsk/sky/sky_8/index",
+    "pages/backpack/sky/sky_8/copy/index",
+
+    "pages/backpack/sky/sky_9/index",
+    "pages/backpack/hsk/sky/sky_9/index",
+    "pages/backpack/sky/sky_9/copy/index",
+
+    "pages/backpack/sky/sky_10/index",
+    "pages/backpack/hsk/sky/sky_10/index",
+    "pages/backpack/sky/sky_10/copy/index",
+
+    "pages/classification/action/index",
+    "pages/classification/animal/index",
+    "pages/classification/basiclife/index",
+    "pages/classification/body/index",
+    "pages/classification/direction/index",
+    "pages/classification/folklore/index",
+    "pages/classification/goods/index",
+    "pages/classification/land/index",
+    "pages/classification/person/index",
+    "pages/classification/plant/index",
+    "pages/classification/sky/index",
+    "pages/classification/time/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -23,26 +71,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "Home",
-        "iconPath": "static/icon/home.png",
-        "selectedIconPath": "static/icon/home.png"
+        "iconPath": "static/home/home.png",
+        "selectedIconPath": "static/home/home.png"
       },
       {
         "pagePath": "pages/backpack/index",
         "text": "Note",
-        "iconPath": "static/icon/backpack.png",
-        "selectedIconPath": "static/icon/backpack.png"
+        "iconPath": "static/home/note.png",
+        "selectedIconPath": "static/home/note.png"
       },
       {
         "pagePath": "pages/search/index",
         "text": "Search",
-        "iconPath": "static/icon/search.png",
-        "selectedIconPath": "static/icon/search.png"
+        "iconPath": "static/home/search.png",
+        "selectedIconPath": "static/home/search.png"
       },
       {
         "pagePath": "pages/admin/index",
         "text": "Admin",
-        "iconPath": "static/icon/admin.png",
-        "selectedIconPath": "static/icon/admin.png"
+        "iconPath": "static/home/admin.png",
+        "selectedIconPath": "static/home/admin.png"
       }
     ],
     "position": "bottom"

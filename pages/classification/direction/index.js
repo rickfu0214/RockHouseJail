@@ -5,14 +5,94 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    classification_directionImageList: ["direction_01", "direction_02", "direction_03", "direction_04", "direction_05", "direction_06", "direction_07", "direction_08", "direction_09", "direction_10"]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+this.setImageUrl("classification_direction");
+  },
 
+  setImageUrl: function (schedul) {
+    const db = wx.cloud.database()
+    const that = this;
+    db.collection(schedul).get({
+      success: res => {
+        res.data.forEach(item => {
+          const imageList = [{ name: item.name, fileId: item.fileId }];
+          that.data.imagePath = imageList.concat(that.data.imagePath);
+        });
+        that.data.classification_directionImageList.forEach(item => {
+          that.setFileId(item);
+        })
+      },
+      fail: console.error,
+    })
+  },
+
+  setFileId: function (imageName) {
+    const that = this;
+    const currentImageInfo = that.data.imagePath.find((item) => { return item.name === imageName })
+    wx.cloud.getTempFileURL({
+      fileList: [currentImageInfo.fileId],
+      success: res => {
+        switch (imageName) {
+          case "direction_01":
+            that.setData({
+              direction_01: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_02":
+            that.setData({
+              direction_02: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_03":
+            that.setData({
+              direction_03: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_04":
+            that.setData({
+              direction_04: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_05":
+            that.setData({
+              direction_05: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_06":
+            that.setData({
+              direction_06: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_07":
+            that.setData({
+              direction_07: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_08":
+            that.setData({
+              direction_08: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_09":
+            that.setData({
+              direction_09: res.fileList[0].tempFileURL
+            });
+            break;
+          case "direction_10":
+            that.setData({
+              direction_10: res.fileList[0].tempFileURL
+            });
+            break;
+        }
+      },
+      fail: console.error
+    });
   },
 
   /**

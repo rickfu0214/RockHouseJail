@@ -3,30 +3,30 @@
 <view class="classification-row-1">
   <span class="classification-cell-1">
     <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/folklore/1.png" />
+      <image src="{{folklore_01}}" />
     <!-- </navigator> -->
   </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/folklore/2.png" /></span>
+  <span class="classification-cell-2"><image src="{{folklore_02}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/folklore/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/folklore/4.png" /></span>
+  <span class="classification-cell-1"><image src="{{folklore_03}}" /></span>
+  <span class="classification-cell-2"><image src="{{folklore_04}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/folklore/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/folklore/6.png" /></span>
+  <span class="classification-cell-1"><image src="{{folklore_05}}" /></span>
+  <span class="classification-cell-2"><image src="{{folklore_06}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/folklore/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/folklore/8.png" /></span>
+  <span class="classification-cell-1"><image src="{{folklore_07}}" /></span>
+  <span class="classification-cell-2"><image src="{{folklore_08}}" /></span>
 </view>
 
 <view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/folklore/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/folklore/10.png" /></span>
+  <span class="classification-cell-1"><image src="{{folklore_09}}" /></span>
+  <span class="classification-cell-2"><image src="{{folklore_10}}" /></span>
 </view>
 
 

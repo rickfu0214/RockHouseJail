@@ -1,33 +1,69 @@
 <!--pages/Common/classification/index.wxml-->
 <view class="classification-container">
-<view class="classification-row-1">
-  <span class="classification-cell-1">
-    <navigator class="navigation" hover-class="none" url="../../backpack/details/index">
-      <image src="../../../static/image/evolution/sky/1.png" />
-    </navigator>
-  </span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/2.png" /></span>
-</view>
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_1/index">
+        <image src="{{sky_01}}" />
+      </navigator>
+    </span>
+    <span class="classification-cell-2">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_2/index">
+        <image src="{{sky_02}}" />
+      </navigator>
+    </span>
+  </view>
 
-<view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/3.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/4.png" /></span>
-</view>
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_3/index">
+        <image src="{{sky_03}}" />
+      </navigator>
+    </span>
+    <span class="classification-cell-2">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_4/index">
+        <image src="{{sky_04}}" />
+      </navigator>
+    </span>
+  </view>
 
-<view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/5.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/6.png" /></span>
-</view>
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_5/index">
+        <image src="{{sky_05}}" />
+      </navigator>
+    </span>
+    <span class="classification-cell-2">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_6/index">
+        <image src="{{sky_06}}" />
+      </navigator>
+    </span>
+  </view>
 
-<view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/7.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/8.png" /></span>
-</view>
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_7/index">
+        <image src="{{sky_07}}" />
+      </navigator>
+    </span>
+    <span class="classification-cell-2">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_8/index">
+        <image src="{{sky_08}}" />
+      </navigator>
+    </span>
+  </view>
 
-<view class="classification-row-1">
-  <span class="classification-cell-1"><image src="../../../static/image/evolution/sky/9.png" /></span>
-  <span class="classification-cell-2"><image src="../../../static/image/evolution/sky/10.png" /></span>
-</view>
+  <view class="classification-row-1">
+    <span class="classification-cell-1">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_9/index">
+        <image src="{{sky_09}}" />
+      </navigator>
+    </span>
+    <span class="classification-cell-2">
+      <navigator class="navigation" hover-class="none" url="../../backpack/sky/sky_10/index">
+        <image src="{{sky_10}}" />
+      </navigator>
+    </span>
+  </view>
 
 
 

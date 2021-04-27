@@ -3,58 +3,58 @@
   <view class="classification-row-1">
     <span class="classification-cell-1">
       <!-- <navigator class="navigation" hover-class="none" url="../../backpack/details/index"> -->
-      <image src="../../../static/image/evolution/basiclife/1.png" />
+      <image src="{{basiclife_01}}" />
       <!-- </navigator> -->
     </span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/2.png" /></span>
+      <image src="{{basiclife_02}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/3.png" /></span>
+      <image src="{{basiclife_03}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/4.png" /></span>
+      <image src="{{basiclife_04}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/5.png" /></span>
+      <image src="{{basiclife_05}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/6.png" /></span>
+      <image src="{{basiclife_06}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/7.png" /></span>
+      <image src="{{basiclife_07}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/8.png" /></span>
+      <image src="{{basiclife_08}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/9.png" /></span>
+      <image src="{{basiclife_09}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/10.png" /></span>
+      <image src="{{basiclife_10}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/11.png" /></span>
+      <image src="{{basiclife_11}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/12.png" /></span>
+      <image src="{{basiclife_12}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/13.png" /></span>
+      <image src="{{basiclife_13}}" /></span>
     <span class="classification-cell-2">
-      <image src="../../../static/image/evolution/basiclife/14.png" /></span>
+      <image src="{{basiclife_14}}" /></span>
   </view>
 
   <view class="classification-row-1">
     <span class="classification-cell-1">
-      <image src="../../../static/image/evolution/basiclife/15.png" /></span>
+      <image src="{{basiclife_15}}" /></span>
   </view>
 
 </view>

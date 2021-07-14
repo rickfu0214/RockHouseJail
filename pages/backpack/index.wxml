@@ -12,8 +12,8 @@
         <view class="bottom_domain_grid">
           <view class="grid_row">
             <span class="hasCell">
-              <navigator class="navigator" hover-class="none" url="./details/index">
-                <image class="hasCellImage" src="../../static/image/evolution/sky/sky_evolution_05.png" />
+              <navigator class="navigator" hover-class="none" url="./sky/sky_1/index">
+                <image class="hasCellImage" src="../../static/image/character.png" />
               </navigator>
             </span>
             <span class="cell">

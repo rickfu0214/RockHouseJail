@@ -6,14 +6,14 @@ page{
   padding-top: 30rpx;
 }
 .copy-topBar-phonenticize {
-  padding-left: 40rpx;
+  padding-left: 340rpx;
 }
 .copy-topBar-phonenticize image {
   width: 90rpx;
   height: 50rpx;
 }
 .copy-mainFont {
-  padding-top: 40rpx;
+  padding-top: 15rpx;
   padding-bottom: 20rpx;
   text-align: center;
 }
